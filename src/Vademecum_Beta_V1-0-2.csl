@@ -5,7 +5,7 @@
     <title-short>VadUniKN</title-short>
     <id>http://www.zotero.org/styles/vaemecum-uni.kn</id>
     <link href="http://www.zotero.org/styles/theologie-und-philosophie" rel="template"/>
-    <link href="https://github.com/Dennislof/Zotero_Vademecum_Citation_Style"/>
+    <link href="https://github.com/Dennislof/Zotero_Vademecum_Citation_Style" rel="documentation"/>
     <link href="https://www.geschichte.uni-konstanz.de/studium/ba-geschichte/im-studium/vademecum/" rel="documentation"/>
     <author>
       <name>Dennis Krämer</name>
