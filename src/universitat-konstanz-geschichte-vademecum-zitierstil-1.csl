@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" demote-non-dropping-particle="sort-only" default-locale="de-DE">
   <info>
-    <title>Universität Konstanz - Geschichte - Vademecum (Beta)</title>
-    <title-short>VadUniKN</title-short>
-    <id>http://www.zotero.org/styles/vaemecum-uni.kn</id>
+    <title>Universität Konstanz - Geschichte - Vademecum (Zitierstil 1) (Deutsch)</title>
+    <title-short>Uni KN Vademecum Stil 1</title-short>
+    <id>http://www.zotero.org/styles/universitat-konstanz-geschichte-vademecum-zitierstil-1</id>
+    <link href="http://www.zotero.org/styles/universitat-konstanz-geschichte-vademecum-zitierstil-1" rel="self"/>
     <link href="http://www.zotero.org/styles/theologie-und-philosophie" rel="template"/>
-    <link href="https://github.com/Dennislof/Zotero_Vademecum_Citation_Style" rel="documentation"/>
     <link href="https://www.geschichte.uni-konstanz.de/studium/ba-geschichte/im-studium/vademecum/" rel="documentation"/>
     <author>
       <name>Dennis Krämer</name>
-      <email>dennis.kraemer@uni-Konstanz.de</email>
     </author>
     <category citation-format="note"/>
     <category field="history"/>
@@ -17,7 +16,7 @@
       Geschichtsstudium an der Universität Konstanz". Deutschsprachiger Zitationsstil für
       Geschichte. Vorlage Zitationsstil: "Theologie und Philosophie". Erstes Zitat: Volle
       Literaturangabe, weitere Zitate: Autor, Kurztitel, Seitenzahl.</summary>
-    <updated>2026-05-06T17:14:42+00:00</updated>
+    <updated>2026-07-14T13:00:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a
       Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
@@ -80,19 +79,6 @@
     <date variable="issued">
       <date-part name="year" range-delimiter="-"/>
     </date>
-  </macro>
-  <macro name="volume">
-    <choose>
-      <if is-numeric="volume">
-        <group delimiter=" ">
-          <label variable="volume" form="short"/>
-          <text variable="volume"/>
-        </group>
-      </if>
-      <else>
-        <text variable="volume"/>
-      </else>
-    </choose>
   </macro>
   <macro name="links">
     <choose>
@@ -206,7 +192,7 @@
                 <text variable="locator"/>
               </group>
             </else-if>
-            <else-if type="book thesis" match ="any">
+            <else-if type="book thesis" match="any">
               <text variable="container-title"/>
               <text macro="publisher"/>
               <text macro="year-date"/>
@@ -295,7 +281,7 @@
             <text variable="page"/>
           </group>
         </else-if>
-        <else-if type="book thesis" match ="any">
+        <else-if type="book thesis" match="any">
           <text variable="container-title"/>
           <text macro="publisher"/>
           <text macro="year-date"/>
